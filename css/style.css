@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+
+@font-face {
+	font-family: "Cony";
+	src: url("../fonts/Cony.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Cony-Bold";
+	src: url("../fonts/Cony-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+p {
+	text-indent: 30px;
+	font-family: "Cony";
+	font-size: 20px;
+	line-height: 2;
+}
+.lowercase {
+	text-transform: lowercase;
+	text-decoration: underline;
+}
+h1 {
+	text-transform: uppercase;
+}
+h1,
+h2,
+h3 {
+	text-shadow: 5px 5px 20px #000;
+	text-decoration: underline;
+	text-align: center;
+	font-family: "Roboto";
+	margin: 60px 0 30px 0;
+}
+ol {
+	font-weight: 700;
+}
+ul {
+	max-height: 50px;
+	overflow: auto;
+}
+ul > li {
+	font-style: italic;
+}
+
+h1 {
+	color: blue;
+}
+h2 {
+	padding: 0 0 0 300px;
+	letter-spacing: 10px;
+	color: chocolate;
+}
+h3 {
+	padding: 0 500px 0 0;
+	word-spacing: 10px;
+	color: teal;
+}
+.list {
+	color: yellowgreen;
+}
+.list_minus {
+	text-decoration: line-through;
+}
+span {
+	color: red;
+}
+#job {
+	color: violet;
+}
+#gifted,
+#marriage,
+#family,
+#property {
+	text-transform: capitalize;
+	color: purple;
+}
+.text > p {
+	display: block;
+	padding: 100px 0 0 100px;
+	font-family: "Cony-Bold";
+	color: red;
+}
+.link {
+	margin: 0 0 30px 0;
+	text-align: right;
+}
+
+img {
+	display: block;
+	max-width: 1000px;
+	margin: 0 auto;
+}
